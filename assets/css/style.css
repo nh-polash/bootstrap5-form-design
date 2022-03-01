@@ -1,0 +1,14 @@
+body {
+    background-color: #D369CD;
+}
+
+.contact-us {
+    background-color: #fff;
+    padding: 50px;
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+
+.form-btn {
+    font-size: 12px;
+}
