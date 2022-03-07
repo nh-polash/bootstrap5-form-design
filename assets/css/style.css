@@ -1,14 +1,20 @@
 body {
-    background-color: #D369CD;
+    background-color: #C9E2D1;
 }
 
-.contact-us {
-    background-color: #fff;
-    padding: 50px;
-    margin: 30px 0px;
-    border-radius: 10px;
+.special-offers {
+    position: absolute;
+    background: #FD5200;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    left: -5px;
+    top: 10px;
 }
 
-.form-btn {
-    font-size: 12px;
+h6 {
+    font-size: 11px;
 }
