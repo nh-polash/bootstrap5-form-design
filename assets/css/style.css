@@ -2,19 +2,37 @@ body {
     background-color: #C9E2D1;
 }
 
-.special-offers {
+.card .profile-img {
     position: absolute;
-    background: #FD5200;
-    width: 70px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    color: #fff;
-    border-radius: 5px;
-    left: -5px;
-    top: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    top: 34%;
+    left: 38%;
+    box-shadow: 1px 1px 10px lightgrey;
 }
 
-h6 {
-    font-size: 11px;
+.card img:first-of-type {
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.social-link a {
+    color: darkcyan;
+    margin-right: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px lightgray;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+}
+
+.social-link a:hover {
+    background: darkcyan;
+    color: white;
+    transform: rotate(360deg);
 }
